@@ -13,7 +13,7 @@
             f.value = ((n * 9 / 5) + 32).toFixed(2);
             r.value = ((n * 9 / 5) + 491.67).toFixed(2);
             centi.value = n;
-            k.value = n + (273.15).toFixed(2);
+            k.value = (n + 273.15).toFixed(2);
         });
         
         // Calculating Farenheit
