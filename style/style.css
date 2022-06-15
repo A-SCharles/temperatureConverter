@@ -1,0 +1,21 @@
+body {
+    background-image: url(../images/OFVgeD.jpg);;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.form {
+    margin: 100px;
+    min-width: fit-content ;
+}
+
+label {
+    text-align: left;
+    width: 125px;
+}
+
+
+.btn {
+    margin-bottom: 7px;
+}
