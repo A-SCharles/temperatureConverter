@@ -34,17 +34,17 @@
             k.value = (n + 459.67) * 5 / 9;
         });
 
-        let btncalcRankine = document.getElementById('rankine');
+        let btncalcRankine = document.getElementById('calcRankine');
         btncalcRankine.addEventListener('click', (n) => {
             n = parseInt(k.value);
 
-            c.value = n * 5 / 9 - 273.15;
+            c.value = (n * 5 / 9) - 273.15;
             f.value = n - 459.67;
-            centi.value = n * 5 / 9 - 273.15;
+            centi.value = (n * 5 / 9) - 273.15;
             k.value = n * 5 / 9;
-        })
+        });
 
-        let btncalcCenti = document.getElementById('centi');
+        let btncalcCenti = document.getElementById('calcCenti');
         btncalcCenti.addEventListener('click', (n) => {
             n = parseInt(centi.value);
 
@@ -52,9 +52,9 @@
             f.value = (n * 9 / 5) + 32;
             r.value = (n * 9 / 5) + 491.67;
             k.value = n + 273.15;
-        })
+        });
 
-        let btncalcKelvin = document.getElementById('kelvin');
+        let btncalcKelvin = document.getElementById('calcKelvin');
         btncalcKelvin.addEventListener('click', (n) => {
             n = parseInt(k.value);
 
@@ -62,4 +62,4 @@
             f.value = n * 9 / 5 - 459.67;
             r.value = n * 9 / 5
             centi.value = n - 273.15;
-        })
+        });
