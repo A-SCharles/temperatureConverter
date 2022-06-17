@@ -1,13 +1,13 @@
 body {
-    background-image: url(../images/OFVgeD.jpg);;    
+    background-image: url(../images/OFVgeD.jpg);
+    background-position: center;  
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 20px;
 }
 
-.form {
-    margin: 100px;
-    min-width: fit-content ;
+.row {
+    min-height: 95vh;
 }
 
 label {
@@ -15,7 +15,6 @@ label {
     width: 125px;
 }
 
-
 .btn {
     margin-bottom: 7px;
-}
+} 
